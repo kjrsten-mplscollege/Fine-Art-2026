@@ -9,9 +9,29 @@
 
 }
 
-h1, h2 {
+header, h1, h2 {
+    outline: 3px solid purple;
+     display: flex;
+    flex-direction: column;
     font-family: "Tanker";
+   
+}
+
+h1 {
+    font-size: 90px;
+}
+
+h2 {
+    margin-top: 8px;
+}
+img {
+    outline: 3px solid purple;
 }
 p {
+    outline: 3px solid purple;
     font-family: "Helvetica Neue";
+}
+
+footer {
+    outline: 3px solid purple;
 }
