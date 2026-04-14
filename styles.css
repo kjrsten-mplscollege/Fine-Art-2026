@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Tanker";
+    src: url(tanker-font);
+    
+}
+
+* {
+    margin: 0 auto;
+
+}
+
+h1, h2 {
+    font-family: "Tanker";
+}
+p {
+    font-family: "Helvetica Neue";
+}
