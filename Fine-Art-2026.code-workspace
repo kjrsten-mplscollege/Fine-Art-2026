@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../tanker-font"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Fine-Art-2026"
+	}
+}
