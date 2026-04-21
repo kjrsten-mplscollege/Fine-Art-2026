@@ -46,6 +46,11 @@ h2 {
 img {
     outline: 3px solid purple;
 }
+
+.artist-image {
+    height: 400px;
+    width: 400px;
+}
 p {
     outline: 3px solid purple;
     font-family: "Helvetica Neue";
