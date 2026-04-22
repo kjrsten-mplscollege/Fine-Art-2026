@@ -28,19 +28,21 @@ header {
 }
 
 h1 {
-    font-size: 90px;
+    font-size: 115px;
     margin-top: 1rem;
 }
 
 
 h2 {
-    margin-top: 8px;
+    font-size: 40px;
+   
 }
 
  .school, .date {
     position: relative;
     text-align: center;
-    bottom: -380px;
+    bottom: -340px;
+    
  }
 
 img {
