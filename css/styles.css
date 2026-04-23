@@ -29,11 +29,13 @@ header {
 h1 {
   font-size: 115px;
   margin-top: 1rem;
+  letter-spacing: 5px;
+  
 }
 
 h2 {
   font-size: 45px;
- 
+  letter-spacing: 2.5px;
 }
 
 .school, .date {
