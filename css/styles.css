@@ -13,6 +13,7 @@ a:link, a:visited, a:hover, a:active {
 color: white;
 }
 
+/* HERO SECTION */ 
 header {
     width: 100%;
     background-image: url("../images/raymond1.png");
@@ -25,32 +26,33 @@ header {
     color: white;
 }
 
-.credit {
-    text-align: right; 
-    
-}
-
 h1 {
-    font-size: 115px;
-    margin-top: 1rem;
+  font-size: 115px;
+  margin-top: 1rem;
 }
-
 
 h2 {
-    font-size: 40px;
-   
+  font-size: 40px;
+ 
 }
 
- .school, .date {
-    position: relative;
-    text-align: center;
-    bottom: -340px;
-    
- }
+.school, .date {
+  position: relative;
+  text-align: center;
+  bottom: -340px;
+  
+}
+
+/* PHOTO CREDIT */
+.credit {
+    text-align: right;   
+}
 
 img {
     outline: 3px solid purple;
 }
+
+/* === GALLERY SECTION === */
 
 .artist-image {
     height: 400px;
@@ -62,7 +64,7 @@ p {
     font-family: "Helvetica Neue";
 }
 
-/* === GALLERY SECTION === */
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -104,9 +106,9 @@ p {
     font-size: 0.95rem;
   }
   
-  .student a:hover {
+  /*.student a:hover {
     text-decoration: underline;
-  }
+  }*/
   
 footer {
     outline: 3px solid purple;
