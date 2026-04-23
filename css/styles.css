@@ -4,14 +4,19 @@
     
 }
 
-* {
-    margin: 0 auto;
+body {
+  background: purple;
+  color: white;
+  margin: 0 auto;
+}
 
+a:link, a:visited, a:hover, a:active {
+color: white;
 }
 
 header {
     width: 100%;
-    background-image: url("raymond1.png");
+    background-image: url("../images/raymond1.png");
     background-size: contain;
     background-position: center;
     height: 600px;
@@ -23,6 +28,7 @@ header {
 
 .credit {
     text-align: right; 
+    
 }
 
 h1 {
@@ -52,7 +58,7 @@ img {
     width: 400px;
 }
 p {
-    outline: 3px solid purple;
+    outline: 3px solid green;
     font-family: "Helvetica Neue";
 }
 
@@ -90,12 +96,10 @@ p {
   .student p {
     margin: 0;
     font-weight: 500;
-    color: #444444;
     line-height: 1.4;
   }
   
   .student a {
-    color: #5c0129;
     text-decoration: none;
     font-size: 0.95rem;
   }
