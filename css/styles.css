@@ -50,6 +50,7 @@ h2 {
 .credit {
     padding: .5px;
     text-align: right;   
+    color:  #B58A2A;
 }
 
 /*img {
@@ -116,10 +117,18 @@ p {
     text-decoration: underline;
   }
   
-/*footer {
+footer {
     outline: 3px solid purple;
+    background: #8CC63F;
 }
 
-#green-shoots {
-    width: 800px;
+footer img {
+  height: 150px;
+  width: 100px;
 }
+
+/* Top-left (mustard/golden): #B58A2A
+Top-right (lime green): #8CC63F
+Bottom-left (black): #000000
+Bottom-right (light gray): #E0E0E0 
+*/
