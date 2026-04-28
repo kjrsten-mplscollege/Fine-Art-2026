@@ -72,7 +72,7 @@ p {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 24px;
     max-width: 1000px;
     margin: 190px auto;
@@ -101,7 +101,6 @@ p {
   }
   
   .student p {
-    
     margin: 0;
     font-weight: 500;
     line-height: 1.4;
@@ -118,7 +117,6 @@ p {
   }
   
 footer {
-    outline: 3px solid purple;
     background: #8CC63F;
 }
 
