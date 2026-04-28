@@ -1,14 +1,15 @@
 @font-face {
     font-family: "Tanker";
-    src: url(tanker-font);
+    src: url("tanker-font/Tanker-Regular.otf");
     
 }
 
 body {
-  color: black;
+  background: #483d28;
+  color: white;
   margin: 0 auto;
-}
 
+}
 a:link, a:visited, a:hover, a:active {
 color: white;
 }
@@ -28,7 +29,7 @@ header {
 
 h1 {
   font-size: 115px;
-  margin-top: 1rem;
+  margin-top: 0;
   letter-spacing: 5px;
   
 }
@@ -39,30 +40,23 @@ h2 {
 }
 
 .school, .date {
+  top: 14rem;
   position: relative;
   text-align: center;
-  bottom: -220px;
+ 
   
 }
 
 
 /* PHOTO CREDIT */
 .credit {
-    padding: .5px;
+    padding: 0 10px;
     text-align: right;   
-    color:  #B58A2A;
-}
 
-/*img {
-    outline: 3px solid purple;
 }
 
 /* === GALLERY SECTION === */
 
-.artist-image {
-    height: 400px;
-    width: 400px;
-}
 
 p {
     /*outline: 3px solid green;*/
@@ -74,8 +68,8 @@ p {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
-    max-width: 1000px;
-    margin: 190px auto;
+    max-width: 1300px;
+    margin: 100px auto;
     padding: 0 20px;
     margin-bottom: 50px;
   }
@@ -107,7 +101,7 @@ p {
   }
   
   .student a {
-    color: green;
+    color:  #8CC63F;
     text-decoration: none;
     font-size: 0.95rem;
   }
@@ -118,6 +112,8 @@ p {
   
 footer {
     background: #8CC63F;
+    color: black;
+    padding-bottom: 20px;
 }
 
 footer img {
@@ -130,3 +126,41 @@ Top-right (lime green): #8CC63F
 Bottom-left (black): #000000
 Bottom-right (light gray): #E0E0E0 
 */
+
+/* test for iphone SE, iphone 14 Pro Max, iPad Air */ 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+    max-width: auto;
+    margin: 100px auto;
+    padding: 0 20px;
+    margin-bottom: 50px;
+  }
+  /* add header */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    max-width: auto;
+    margin: 100px auto;
+    padding: 0 20px;
+    margin-bottom: 50px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
