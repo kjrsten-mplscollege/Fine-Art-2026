@@ -45,7 +45,7 @@ h2 {
 }
 
 .school {
-  top: 14rem;
+  top: 12rem;
   position: relative;
   text-align: center;
 
@@ -55,9 +55,14 @@ h2 {
 .credit {
   padding: 0 10px;
   text-align: right;
-  
+  color: #98987e;
+  font-size: 0.9rem;
+  } 
 
-} /* === GALLERY SECTION === */
+  .credit a:visited {
+    color: #98987e;
+  }
+/* === GALLERY SECTION === */
 
 p {
   font-family: "Helvetica Neue";
@@ -110,9 +115,10 @@ p {
 }
 
 footer {
+  font-size: 0.9rem;
   background: #8cc63f;
-  color: white;
-  padding-bottom: 20px;
+  color: black;
+  padding: 0 20px 20px;
 }
 
 footer img {
@@ -142,8 +148,9 @@ footer img {
   }
 
   .school {
-    position: static; /* this removes the big white space*/
-    padding-top: 50px;
+    position: relative;
+    top: 7rem;
+    padding: 0 1rem;
   }
 
 
@@ -158,35 +165,6 @@ footer img {
   }
 } 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/*@media only screen and (min-width: 600px) {
- 
-  header {
-    height: auto; /* prevents text from overflowing the fixed container*/
-  /*  padding: 25px 10px;
-   
-  }
-
-
-  h2 {
-    font-size: 1.25rem;
-    letter-spacing: 1px;
-  }
-
-  .school {
-    position: static; /* this removes the big white space*/
-    /*padding-top: 50px;
-  }/*
-
-  /*.gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
-    max-width: auto;
-    margin: 100px auto;
-    padding: 0 20px;
-    margin-bottom: 50px;
-}/*
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
