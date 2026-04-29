@@ -17,7 +17,6 @@ a:active {
 /* HERO SECTION */
 header {
   width: 100%;
-  /*max-width: 1200px;*/
   background-image: linear-gradient(
       to bottom,
       rgba(246, 238, 224, 0) 70%,
@@ -41,7 +40,7 @@ h1 {
 }
 
 h2 {
-  font-size: 45px;
+  font-size: 50px;
   letter-spacing: 2.5px;
 }
 
@@ -56,6 +55,8 @@ h2 {
 .credit {
   padding: 0 10px;
   text-align: right;
+  
+
 } /* === GALLERY SECTION === */
 
 p {
@@ -130,13 +131,13 @@ footer img {
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     padding-bottom: 40px;
     letter-spacing: 1px;
   }
 
   h2 {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     letter-spacing: 1px;
   }
 
@@ -145,9 +146,6 @@ footer img {
     padding-top: 50px;
   }
 
-  .credit {
-    font-size: 10px;
-  }
 
   .gallery {
     display: grid;
@@ -185,13 +183,9 @@ footer img {
     padding-top: 50px;
   }
 
-  .credit {
-    font-size: 10px;
-  }
-
   .gallery {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 24px;
     max-width: auto;
     margin: 100px auto;
