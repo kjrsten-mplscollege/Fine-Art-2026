@@ -5,9 +5,10 @@
 }
 
 body {
-  background: #483d28;
+  background:#483d28;
   color: white;
   margin: 0 auto;
+  
 
 }
 a:link, a:visited, a:hover, a:active {
@@ -15,10 +16,12 @@ color: white;
 }
 
 /* HERO SECTION */ 
+
 header {
     width: 100%;
-    background-image: url("../images/raymond1.png");
-    background-size: contain;
+    background-image: linear-gradient(to bottom, rgba(246, 238, 224, 0) 70%, #f6eee0 100%), url("../images/raymond1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     height: 600px;
     position: relative;
@@ -52,7 +55,6 @@ h2 {
 .credit {
     padding: 0 10px;
     text-align: right;   
-
 }
 
 /* === GALLERY SECTION === */
