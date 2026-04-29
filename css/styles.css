@@ -34,7 +34,7 @@ header {
 }
 
 h1 {
-  font-size: 115px;
+  font-size: 6rem;
   margin-top: 0;
   letter-spacing: 5px;
 }
@@ -159,19 +159,14 @@ footer img {
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/*@media only screen and (min-width: 600px) {
  
   header {
     height: auto; /* prevents text from overflowing the fixed container*/
-    padding: 25px 10px;
+  /*  padding: 25px 10px;
    
   }
 
-  h1 {
-    font-size: 4rem;
-    padding-bottom: 40px;
-    letter-spacing: 1px;
-  }
 
   h2 {
     font-size: 1.25rem;
@@ -180,10 +175,10 @@ footer img {
 
   .school {
     position: static; /* this removes the big white space*/
-    padding-top: 50px;
-  }
+    /*padding-top: 50px;
+  }/*
 
-  .gallery {
+  /*.gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
@@ -191,8 +186,8 @@ footer img {
     margin: 100px auto;
     padding: 0 20px;
     margin-bottom: 50px;
-} 
-}
+}/*
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
