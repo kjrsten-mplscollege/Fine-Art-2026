@@ -166,7 +166,7 @@ footer img {
   header {
     height: auto; /* prevents text from overflowing the fixed container*/
     padding: 25px 10px;
-    max-width: 1200px;
+   
   }
 
   h1 {
