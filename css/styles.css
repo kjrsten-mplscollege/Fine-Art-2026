@@ -1,41 +1,43 @@
 @font-face {
-    font-family: "Tanker";
-    src: url("tanker-font/Tanker-Regular.otf");
-    
+  font-family: "Tanker";
+  src: url("tanker-font/Tanker-Regular.otf");
 }
-
 body {
-  background:#483d28;
+  background: #483d28;
   color: white;
   margin: 0 auto;
-  
-
 }
-a:link, a:visited, a:hover, a:active {
-color: white;
-}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: white;
+} 
 
-/* HERO SECTION */ 
-
+/* HERO SECTION */
 header {
-    width: 100%;
-    max-width: 1200px;
-    background-image: linear-gradient(to bottom, rgba(246, 238, 224, 0) 70%, #f6eee0 100%), url("../images/raymond1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 600px;
-    position: relative;
-    text-align: center;
-    font-family: "Tanker";
-    color: white;
+  width: 100%;
+  /*max-width: 1200px;*/
+  background-image: linear-gradient(
+      to bottom,
+      rgba(246, 238, 224, 0) 70%,
+      #483d28 100%
+    ),
+    url("../images/raymond1.png");
+  background-size: contain;
+  background-repeat: repeat-x;
+  background-position: center;
+  height: 600px;
+  position: relative;
+  text-align: center;
+  font-family: "Tanker";
+  color: white;
 }
 
 h1 {
   font-size: 115px;
   margin-top: 0;
   letter-spacing: 5px;
-  
 }
 
 h2 {
@@ -43,122 +45,110 @@ h2 {
   letter-spacing: 2.5px;
 }
 
-.school, .date {
+.school {
   top: 14rem;
   position: relative;
   text-align: center;
- 
-  
-}
 
+} 
 
 /* PHOTO CREDIT */
 .credit {
-    padding: 0 10px;
-    text-align: right;   
-}
-
-/* === GALLERY SECTION === */
-
+  padding: 0 10px;
+  text-align: right;
+} /* === GALLERY SECTION === */
 
 p {
-    /*outline: 3px solid green;*/
-    font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue";
 }
 
-
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
-    max-width: 1300px;
-    margin: 100px auto;
-    padding: 0 20px;
-    margin-bottom: 50px;
-  }
-  
-  .student {
-    text-align: center;
-    background: transparent;
-    font-family: "Helvetica Neue", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    padding: 16px;
-    border-radius: 10px;
-    box-shadow: none;
-  }
-  
-  .student img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
-  }
-  
-  .student p {
-    margin: 0;
-    font-weight: 500;
-    line-height: 1.4;
-  }
-  
-  .student a {
-    color:  #8CC63F;
-    text-decoration: none;
-    font-size: 0.95rem;
-  }
-  
-  .student a:hover {
-    text-decoration: underline;
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  max-width: 1300px;
+  margin: 100px auto;
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+
+.student {
+  text-align: center;
+  background: transparent;
+  font-family: "Helvetica Neue", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.student img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+}
+
+.student p {
+  margin: 0;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.student a {
+  color: #8cc63f;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.student a:hover {
+  text-decoration: underline;
+}
+
 footer {
-    background: #8CC63F;
-    color: black;
-    padding-bottom: 20px;
+  background: #8cc63f;
+  color: black;
+  padding-bottom: 20px;
 }
 
 footer img {
   height: 150px;
   width: 100px;
-}
+} 
 
-/* Top-left (mustard/golden): #B58A2A
-Top-right (lime green): #8CC63F
-Bottom-left (black): #000000
-Bottom-right (light gray): #E0E0E0 
-*/
-
-/* test for iphone SE, iphone 14 Pro Max, iPad Air */ 
+/* Top-left (mustard/golden): #B58A2A Top-right (lime green): #8CC63F Bottom-left (black): #000000 Bottom-right (light gray): #E0E0E0 */ /* test for iphone 14 Pro Max, iPad Air */ 
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
+  
   header {
     height: auto; /* prevents text from overflowing the fixed container*/
     padding: 25px 10px;
   }
 
-h1 { 
-  font-size: 3rem;
-  padding-bottom: 40px;
-  letter-spacing: 1px;
-}
+  h1 {
+    font-size: 3rem;
+    padding-bottom: 40px;
+    letter-spacing: 1px;
+  }
 
-h2 {
-  font-size: 1.25rem;
-  letter-spacing: 1px;
-}
+  h2 {
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+  }
 
-.school {
-  position: static; /* this removes the big white space*/
-  padding-top: 50px;
-}
+  .school {
+    position: static; /* this removes the big white space*/
+    padding-top: 50px;
+  }
 
-.credit {
-  font-size: 10px;
-}
+  .credit {
+    font-size: 10px;
+  }
+
   .gallery {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -168,18 +158,37 @@ h2 {
     padding: 0 20px;
     margin-bottom: 50px;
   }
-  /* add header */
-
-}
+} 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
+@media only screen and (min-width: 600px) {
+ 
+  header {
+    height: auto; /* prevents text from overflowing the fixed container*/
+    padding: 25px 10px;
+    max-width: 1200px;
+  }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
+  h1 {
+    font-size: 4rem;
+    padding-bottom: 40px;
+    letter-spacing: 1px;
+  }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
+  h2 {
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+  }
+
+  .school {
+    position: static; /* this removes the big white space*/
+    padding-top: 50px;
+  }
+
+  .credit {
+    font-size: 10px;
+  }
+
   .gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -188,8 +197,12 @@ h2 {
     margin: 100px auto;
     padding: 0 20px;
     margin-bottom: 50px;
-  }
+} 
 }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+  
+} 
+
+
