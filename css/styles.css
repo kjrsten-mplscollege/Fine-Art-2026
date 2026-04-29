@@ -19,6 +19,7 @@ color: white;
 
 header {
     width: 100%;
+    max-width: 1200px;
     background-image: linear-gradient(to bottom, rgba(246, 238, 224, 0) 70%, #f6eee0 100%), url("../images/raymond1.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -133,6 +134,31 @@ Bottom-right (light gray): #E0E0E0
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+  header {
+    height: auto; /* prevents text from overflowing the fixed container*/
+    padding: 25px 10px;
+  }
+
+h1 { 
+  font-size: 3rem;
+  padding-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+}
+
+.school {
+  position: static; /* this removes the big white space*/
+  padding-top: 50px;
+}
+
+.credit {
+  font-size: 10px;
+}
   .gallery {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -143,6 +169,7 @@ Bottom-right (light gray): #E0E0E0
     margin-bottom: 50px;
   }
   /* add header */
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
